@@ -1,1 +1,1 @@
-＃b-teck_practice
+git関連記事の作業用のリポジトリです。
