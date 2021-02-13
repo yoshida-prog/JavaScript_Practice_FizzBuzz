@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>JavaScript課題2</title>
-    <script type="text/javascript" src="fizzbuzz.js"></script>
   </head>
   <body>
     <!-- formタグのname属性とonclick属性が同名だとエラー -->
@@ -13,9 +12,11 @@
       <span>buzz</span>
       <input type="text" name="buzz" id="buzz">
     </form>
-    <input type="button" value="start" onclick="fizzbuzz()">
+    <input type="button" value="start" id="fbBtn">
     <div id="fizzbuzzBox">
 
     </div>
+    <script type="text/javascript" src="fizzbuzz.js"></script>
   </body>
 </html>
+
